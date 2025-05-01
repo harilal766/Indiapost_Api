@@ -6,3 +6,12 @@ This is a python package made to perform tasks via indiapost api for Bulk custom
 
 
 
+
+## API Structure
+This package is developed via Objected Oritented Programming method. with the following classes.
+| Class Name    | Purpose     |
+| ------------- | ------------- |
+| Authorization | Access token generation |
+| Tracking      | Order Tracking|
+
+

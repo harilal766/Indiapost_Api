@@ -7,5 +7,8 @@ class TestApiBase:
     instance = ApiBase(
         username=USERNAME, password=PASSWORD
     )
-    assert re.match(r'\d{10}',instance.username)
+    def test_username(self):
+        username_check = re.fullmatch(r'\d{10}',self.instance.username)
+        assert username_check
+        assert self.instance.password == PASSWORD
     

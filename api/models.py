@@ -1,5 +1,5 @@
 import requests
-from credentials import USERNAME,PASSWORD
+from tests.test_credentials import USERNAME,PASSWORD
 
 
 class ApiBase:
